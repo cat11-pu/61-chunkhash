@@ -1,0 +1,10 @@
+{
+  "no_file_code": "E_NO_FILE",
+  "delete_id": "f1",
+  "files": [
+    {"id": "f0", "chunks": ["aa", "bb", "cc"]},
+    {"id": "f1", "chunks": ["bb", "cc", "dd"]},
+    {"id": "f2", "chunks": ["aa", "dd"]}
+  ],
+  "hash_bits": 16
+}
