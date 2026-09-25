@@ -18,8 +18,8 @@ const view = render(spec);
 emit("唯一块数 =", Object.keys(stored.blocks).length);
 emit("写入的块数 =", stored.added);
 emit("去重省下的块数 =", stored.deduped);
-emit("删除后的引用计数 =", JSON.stringify(cleaned.refs));
-emit("被回收的块 =", JSON.stringify(cleaned.reclaimed));
+emit("删除后的引用计数 =", cleaned.refs);
+emit("被回收的块 =", cleaned.reclaimed);
 emit("仍被引用的块数 =", cleaned.kept);
 emit("存储字节数 =", view.bytes);
 
